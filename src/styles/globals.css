@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utility class for Header>TopNav>Right */
+@layer components {
+  .link {
+    @apply cursor-pointer hover:underline;
+  }
+}
