@@ -7,12 +7,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      extend: {
-        colors: {
-          amazon_blue: {
-            light: '#232F3E',
-            DEFAULT: '#131921',
-          },
+      colors: {
+        amazon_blue: {
+          light: '#232F3E',
+          DEFAULT: '#131921',
         },
       },
     },
@@ -20,5 +18,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  // plugins: [require('@tailwindcss/line-clamp')],
 };
